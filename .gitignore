@@ -1,0 +1,6 @@
+.env
+ids.txt
+Zakazi.txt
+.venv/
+.idea/
+__pycache__/
