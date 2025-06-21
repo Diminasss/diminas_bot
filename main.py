@@ -12,7 +12,6 @@ from os import getenv
 from VkBot import *
 from Textes import *
 
-
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
@@ -58,11 +57,11 @@ def set_changer(operation_type, user_id):
     elif operation_type == 0:
         jason_sub_set.remove(user_id)
 
+
 # функция содержащая бота тг поностью для параллельного исполнения с функцией бота ВК
 
 
 def tgbot() -> None:
-
     global limit
     global mass
 
